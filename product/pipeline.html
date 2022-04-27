@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title>Tuning Pipeline | TMaestro</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=" TMaestro a new generation of intelligent tuning platform " />
+  <!-- Canonical links -->
+  <link rel="canonical" href="https://www.5tuning.com/product/pipeline.html">
+  <!-- Alternative links -->
+  
+    
+      <link rel="alternative" hreflang="en" href="https://www.5tuning.com/product/pipeline.html">
+    
+      <link rel="alternative" hreflang="zh-cn" href="https://www.5tuning.com/zh-cn/product/pipeline.html">
+    
+  
+  <!-- Icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-touch-icon-152x152.png">
+  <meta name="msapplication-TileColor" content="#2f83cd">
+  <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
+  <meta name="generator" content="Hexo 6.1.0">
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <!-- build:css build/css/navy.css -->
+  
+<link rel="stylesheet" href="/css/navy.css">
+
+  <!-- endbuild -->
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="TMaestro" type="application/atom+xml">
+  <!-- Open Graph -->
+  
+</head>
+
+<body>
+  <div id="container">
+    <header id="header" class="wrapper">
+  <div id="header-inner" class="inner">
+    <div id="logo-wrap">
+      <a href="/" id="logo" title="TMaestro a new generation of intelligent tuning platform">TMaestro</a>
+    </div>
+    <nav id="main-nav">
+      <a href="/product/" class="main-nav-link">Product</a><a href="/about/" class="main-nav-link">About</a>
+    </nav>
+    
+    <a id="mobile-nav-toggle">
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+      <span class="mobile-nav-toggle-bar"></span>
+    </a>
+  </div>
+</header>
+
+    <div id="content-wrap">
+  <div id="content" class="wrapper">
+    <div id="content-inner">
+      <article class="article-container" itemscope itemtype="http://schema.org/Article">
+        <div class="article-inner">
+          <div class="article">
+            <div class="inner">
+              <header class="article-header">
+                <h1 class="article-title" itemprop="name">Tuning Pipeline</h1>
+              </header>
+              <div class="article-content" itemprop="articleBody">
+                <html><head></head><body><h1 id="Tuning-plan" class="article-heading"><a href="#Tuning-plan" class="headerlink" title="Tuning  plan"></a>Tuning  plan<a class="article-anchor" href="#Tuning-plan" aria-hidden="true"></a></h1><p>For clusters that need to be tuned for JVM parameters, TMaestro generates a tuning plan for the cluster, each of which contains a tuning pipeline, and a cluster can only have one tuning plan in execution.</p>
+<h1 id="Step-1-Health-Testing" class="article-heading"><a href="#Step-1-Health-Testing" class="headerlink" title="Step 1 Health Testing"></a>Step 1 Health Testing<a class="article-anchor" href="#Step-1-Health-Testing" aria-hidden="true"></a></h1><p>TMaestro performs health checks on the cluster to detect potential problems with the cluster, checking response time, YGC count, YGC time, FGC count, FGC time, heap memory, Old area usage, garbage collector, and more.</p>
+<h1 id="Step-2-Expected-assessment" class="article-heading"><a href="#Step-2-Expected-assessment" class="headerlink" title="Step 2 Expected assessment"></a>Step 2 Expected assessment<a class="article-anchor" href="#Step-2-Expected-assessment" aria-hidden="true"></a></h1><p>TMaestro evaluates the cluster’s expectations, performs a comprehensive analysis through an algorithm, and selects a sample machine for tuning tests to assess how the cluster will affect if the parameters are adjusted</p>
+<h1 id="Step-3-Tuning-process" class="article-heading"><a href="#Step-3-Tuning-process" class="headerlink" title="Step 3 Tuning process"></a>Step 3 Tuning process<a class="article-anchor" href="#Step-3-Tuning-process" aria-hidden="true"></a></h1><p>TMaestro analyzes all the JVM parameters that need to be adjusted, and if the user needs to modify a specific parameter, it can be manually corrected here. In the call process, TMaster will optimize the cluster single machine in batches, after each batch tuning is completed, intelligent risk detection will be carried out, if a problem is detected, the entire cluster tuning will be rolled back to ensure tuning security.</p>
+<h1 id="Step-4-Effect-verification" class="article-heading"><a href="#Step-4-Effect-verification" class="headerlink" title="Step 4 Effect verification"></a>Step 4 Effect verification<a class="article-anchor" href="#Step-4-Effect-verification" aria-hidden="true"></a></h1><p>TMaestro will cluster monitoring indicators for pre- and post-tuning comparative analysis, evaluate the actual tuning effect, if the effect is not obvious, it will be fed back to the algorithm center for sample learning evolution</p>
+</body></html>
+              </div>
+              <footer class="article-footer">
+                <time class="article-footer-updated" datetime="2022-04-27T06:55:34.285Z" itemprop="dateModified">last updated：2022-04-27</time>
+                <a href="UIOverview.html" class="article-footer-prev" title="Dashboard"><i class="fa fa-chevron-left"></i><span>prev</span></a><a href="settings.html" class="article-footer-next" title="Settings"><span>next</span><i class="fa fa-chevron-right"></i></a>
+              </footer>
+              
+            </div>
+          </div>
+          <aside id="article-toc" role="navigation">
+            <div id="article-toc-inner">
+              <strong class="sidebar-title">Contents</strong>
+              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Tuning-plan"><span class="toc-text">Tuning  plan</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Step-1-Health-Testing"><span class="toc-text">Step 1 Health Testing</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Step-2-Expected-assessment"><span class="toc-text">Step 2 Expected assessment</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Step-3-Tuning-process"><span class="toc-text">Step 3 Tuning process</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Step-4-Effect-verification"><span class="toc-text">Step 4 Effect verification</span></a></li></ol>
+              <a href="#" id="article-toc-top">back to top</a>
+            </div>
+          </aside>
+        </div>
+      </article>
+      <aside id="sidebar" role="navigation">
+  <div class="inner">
+    <strong class="sidebar-title">Getting Started</strong><a href="index.html" class="sidebar-link sidebar_level_0">Overview</a><strong class="sidebar-title">Controller UI</strong><a href="UIOverview.html" class="sidebar-link sidebar_level_0">Dashboard</a><a href="pipeline.html" class="sidebar-link current sidebar_level_0">Tuning pipeline</a><a href="settings.html" class="sidebar-link sidebar_level_0">Settings</a>
+  </div>
+</aside>
+    </div>
+  </div>
+</div>
+
+    <footer id="footer" class="wrapper">
+  <div class="inner">
+    <div id="footer-copyright">
+      &copy; 2022 <a href="https://github.com/" target="_blank">Antgroup</a>
+    </div>
+    <div id="footer-links">
+      <a href="https://github.com/" class="footer-link" target="_blank"><i class="fab fa-github"></i></a>
+    </div>
+	<div style="display:none;">
+		本站总访问量<span id="busuanzi_value_site_pv"></span>次
+		本站访客数<span id="busuanzi_value_site_uv"></span>人次
+		本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+	</div>
+  </div>
+</footer>
+
+  </div>
+  <div id="mobile-nav-dimmer"></div>
+  <nav id="mobile-nav">
+  <div id="mobile-nav-inner">
+    <ul id="mobile-nav-list">
+      <a href="/product/" class="mobile-nav-link">Product</a><a href="/about/" class="mobile-nav-link">About</a>     
+    </ul>
+    
+      <strong class="mobile-nav-title">Getting Started</strong><a href="index.html" class="mobile-nav-link sidebar_level_0">Overview</a><strong class="mobile-nav-title">Controller UI</strong><a href="UIOverview.html" class="mobile-nav-link sidebar_level_0">Dashboard</a><a href="pipeline.html" class="mobile-nav-link current sidebar_level_0">Tuning pipeline</a><a href="settings.html" class="mobile-nav-link sidebar_level_0">Settings</a>
+    
+  </div>
+  <div id="mobile-lang-select-wrap">
+    <span id="mobile-lang-select-label"><i class="fa fa-globe"></i><span>English</span></span>
+    <select id="mobile-lang-select" data-canonical="">
+      
+        <option value="en" selected>English</option>
+      
+        <option value="zh-cn">简体中文</option>
+      
+    </select>
+  </div>
+</nav>
+  <!-- Scripts -->
+<!-- Cookie -->
+<script src="/js/js.cookie.min.js"></script>
+<!-- build:js build/js/main.js -->
+
+<script src="/js/lang_select.js"></script>
+
+
+<script src="/js/toc.js"></script>
+
+
+<script src="/js/mobile_nav.js"></script>
+
+<!-- endbuild -->
+
+<!-- Algolia -->
+
+
+</body>
+</html>
